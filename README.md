@@ -108,9 +108,9 @@ If you intend to use Dedupe It for commercial purposes, we simply ask that you i
   If you need any of those features, please [contact us](##Contact).
 
   In the meantime, here are some popular alternatives:
-  - Enterprise-ready: [AWS Entity Resolution]([url](https://aws.amazon.com/entity-resolution/))
-  - Open-source: [Zingg]([url](https://www.zingg.ai/))
-  - Integrated with Salesforce: [DataGroomr]([url](https://datagroomr.com/))
+  - Enterprise-ready: [AWS Entity Resolution](https://aws.amazon.com/entity-resolution/)
+  - Open-source: [Zingg](https://www.zingg.ai/)
+  - Integrated with Salesforce: [DataGroomr](https://datagroomr.com/)
   
 </details>
 
