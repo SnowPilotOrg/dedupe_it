@@ -15,7 +15,7 @@ I've wasted tons of time cleaning datasets with Excel formulas and SQL, but hand
 
 After trying "AI-powered" solutions like the AWS Entity Resolution, I was frustrated to find that I still had to map fields and hand-tune "confidence scores".
 
-Dedupe It obviates manual configuration by fully utilizing LLM vector embeddings & chat completions.
+Dedupe It obviates manual configuration by using LLM vector embeddings & chat completions.
 
 ## How it works
 
