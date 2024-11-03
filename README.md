@@ -96,7 +96,8 @@ If you intend to use Dedupe It for commercial purposes, we simply ask that you i
 <details>
   <summary>Why should I use Dedupe It over alternative X?</summary>
 
-  The generic answer is that as of today (11/3/2024) Dedupe It's main value proposition is simplicity.
+  As of today, our main value proposition is simplicity.
+  
   There is no other fuzzy deduplication solution that works out-of-the-box without manual configuration.
 
   That said, this implementation is a minimum viable product. Shortcomings of Dedupe It today include:
