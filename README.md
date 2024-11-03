@@ -55,10 +55,6 @@ Dedupe It is open-source software, available under the Apache 2.0 license.
 
 If you intend to use Dedupe It for commercial purposes, we simply ask that you include a copy of the original license in your code, and email the authors (founders@snowpilot.com) with a short explanation of how you intend to use Dedupe It.
 
-## FAQ
-
-TODO
-
 ## Contact
 
 Dedupe It is built by the team at Snowpilot (YC S24, https://www.snowpilot.com)
