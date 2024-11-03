@@ -1,6 +1,8 @@
 # Dedupe It
 
-Deduplicate your CSV in one click. Try it: https://dedupe.it
+Deduplicate your CSV in one click.
+
+To try it: https://dedupe.it
 
 Watch a demo:
 [![Dedupe It Demo Video](https://github.com/user-attachments/assets/f4189062-8921-4b5b-9f1f-d0fd77d92347)](https://www.youtube.com/watch?v=7mZ0kdwXBwM)
@@ -34,12 +36,11 @@ Here are some advantages of this approach:
 
 
 ## Future improvements
-NOTE: I'm already testing some of these features locally.
-If you want early access, feel free to email me at ben@snowpilot.com or fill out the form on the demo site (https://dedupe.it)
-
 - **Incremental / stream deduplication**: Persist the vector database and groupings to deduplicate new records without reprocessing the whole dataset.
 - **Custom rules**: Allow specifying custom guidelines, either fuzzy (ex. "consider international subsidiaries to be distinct entities") or deterministic (always use the values from the last updated record when merging).
 - **Integrations**: Excel, Google Sheets, Google Forms, Salesforce, Hubspot, Snowflake, etc.
+
+NOTE: Some of these features are already in the works. If you have requests or want early access, email founders@snowpilot.com or fill out the form on the demo site (https://dedupe.it)
 
 ## Self-hosting
 
@@ -58,8 +59,8 @@ If you intend to use Dedupe It for commercial purposes, we simply ask that you i
 
 ## Contact
 
-Dedupe It is built by the team at Snowpilot (YC S24, https://www.snowpilot.com)
+Dedupe It is built by the [Snowpilot](https://www.snowpilot.com) team
 
-The founders (Ben Warren and Dom Crosby) can be reached at founders@snowpilot.com.
+To contact us, email founders@snowpilot.com
 
 Cheers!
