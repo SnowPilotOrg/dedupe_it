@@ -36,9 +36,9 @@ Here are some advantages of this approach:
 NOTE: I'm already testing some of these features locally.
 If you want early access, feel free to email me at ben@snowpilot.com or fill out the form on the demo site (https://dedupe.it)
 
-- Incremental / stream deduplication: Persist the vector database and groupings to deduplicate new records without reprocessing the whole dataset.
-- Custom rules: Allow specifying custom guidelines, either fuzzy (ex. "consider international subsidiaries to be distinct entities") or deterministic (always use the values from the last updated record when merging).
-- Integrations: Excel, Google Sheets, Google Forms, Salesforce, Hubspot, Snowflake, etc.
+- **Incremental / stream deduplication**: Persist the vector database and groupings to deduplicate new records without reprocessing the whole dataset.
+- **Custom rules**: Allow specifying custom guidelines, either fuzzy (ex. "consider international subsidiaries to be distinct entities") or deterministic (always use the values from the last updated record when merging).
+- **Integrations**: Excel, Google Sheets, Google Forms, Salesforce, Hubspot, Snowflake, etc.
 
 ## Self-hosting
 
