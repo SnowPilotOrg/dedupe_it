@@ -55,6 +55,71 @@ Dedupe It is open-source software, available under the Apache 2.0 license.
 
 If you intend to use Dedupe It for commercial purposes, we simply ask that you include a copy of the original license in your code, and email the authors (founders@snowpilot.com) with a short explanation of how you intend to use Dedupe It.
 
+## FAQ
+
+<details>
+  <summary>What does Dedupe It cost to run?</summary>
+
+  With no modifications, this implementation will cost you ~$8.40 per 1k records.
+  This will depend on the size of your records, so please benchmark your costs on a small, representative sample of data before attempting to run on a large dataset.
+
+  NOTE: We're working on optimizations to reduce the cost 100x.
+  If you need to run deduplication on a larger dataset (100k+ rows), please email us: founders@snowpilot.com
+</details>
+
+<details>
+  <summary>When should I use Dedupe It?</summary>
+
+  Dedupe It is built for fuzzy deduplication of structured data.
+  In other words, it's a good fit if your data:
+  - Fits into a spreadsheet / CSV
+  - Might have duplicates
+  - The duplicates are not exact (ex. "Michael B. Schmidt, michael.schmidt@acme.com" and "mike schmidt, mike@acme.com")
+
+  This is typically the case if:
+  - Your data comes from manual entry, like someone filling out a form
+  - Your data is a combination of multiple sources, each of which has different fields or formatting
+</details>
+
+
+<details>
+  <summary>Do you have performance benchmarks?</summary>
+
+  We'll release some more detailed head-to-head and benchmarks in the future.
+
+  Anecdotally, on the datasets that we've tested (people, companies, and products):
+  - Rate of false negatives (not catching a pair of duplicates): <5%
+  - Rate of false positives (mistakenly identifying distinct records as duplicates): vanishingly small  
+</details>
+
+
+<details>
+  <summary>Why should I use Dedupe It over alternative X?</summary>
+
+  The generic answer is that as of today (11/3/2024) Dedupe It's main value proposition is simplicity.
+  There is no other fuzzy deduplication solution that works out-of-the-box without manual configuration.
+
+  That said, this implementation is a minimum viable product. Shortcomings of Dedupe It today include:
+  - Relatively expensive (~$8.40/1k records). NOTE: we will be bringing this down 100x over the next month or two.
+  - No incrementality. NOTE: we have incremental versions working locally.
+  - No integrations. NOTE: on the roadmap.
+  - No custom rules. NOTE: on the roadmap.
+
+  If you need any of those features, please [contact us](##Contact).
+
+  In the meantime, here are some popular alternatives:
+  - Enterprise-ready: [AWS Entity Resolution]([url](https://aws.amazon.com/entity-resolution/))
+  - Open-source: [Zingg]([url](https://www.zingg.ai/))
+  - Integrated with Salesforce: [DataGroomr]([url](https://datagroomr.com/))
+  
+</details>
+
+<details>
+  <summary>Can you add feature X?</summary>
+
+  Probably! Add a thread in the discussions section on Github, email us at founders@snowpilot.com.
+</details>
+
 ## Contact
 
 Dedupe It is built by the [Snowpilot](https://www.snowpilot.com) team
