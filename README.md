@@ -47,13 +47,13 @@ Backend: see instructions in `backend/README.md`
 
 ## Contributing
 
-Contributions are welcome. We don't yet have a formal process for contributions, 
+Contributions are welcome. We don't currently have a formal process for contribs; feel free to simply open an issue or PR.
 
 ## License
 
 Dedupe It is open-source software, available under the Apache 2.0 license.
 
-If you intend to use Dedupe It for commercial purposes, we ask that you simply include a copy of the original license in your code, and email the authors (founders@snowpilot.com) with a short explanation of how you intend to use Dedupe It.
+If you intend to use Dedupe It for commercial purposes, we simply ask that you include a copy of the original license in your code, and email the authors (founders@snowpilot.com) with a short explanation of how you intend to use Dedupe It.
 
 ## FAQ
 
