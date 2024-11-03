@@ -1,6 +1,6 @@
 # Dedupe It
 
-Deduplicate your CSV in one click. Demo: https://dedupe.it
+Deduplicate your CSV in one click. Try it: https://dedupe.it
 
 ![CleanShot 2024-11-02 at 20 25 19@2x](https://github.com/user-attachments/assets/0915f8c1-c410-4b97-93b9-d603e8c93412)
 
