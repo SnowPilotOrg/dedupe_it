@@ -1,0 +1,35 @@
+# Default recipe to run when just is called without arguments
+default:
+    @just --list
+
+# Run tests
+test:
+    uv run pytest tests/
+
+# Run tests with verbose output
+test-verbose:
+    uv run pytest -s -v tests/
+
+# Run tests in watch mode
+test-watch:
+    uv run pytest -s -v --watch tests/
+
+# Run linting
+lint:
+    uv run ruff check --fix .
+
+# Format code
+format:
+    uv run ruff format .
+
+# Build project dependencies
+build:
+    uv sync
+
+# Run the application
+run:
+    uv run python -m uvicorn src.main:app --port 8080
+
+# Run the application in development mode
+dev:
+    uv run python -m uvicorn src.main:app --reload --port 8080
