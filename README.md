@@ -1,8 +1,6 @@
 # Dedupe It
 
-Deduplicate your CSV in one click.
-
-To try it: https://dedupe.it
+Deduplicate your CSV in one click. Try it: https://dedupe.it
 
 Watch a demo:
 [![Dedupe It Demo Video](https://github.com/user-attachments/assets/f4189062-8921-4b5b-9f1f-d0fd77d92347)](https://www.youtube.com/watch?v=7mZ0kdwXBwM)
