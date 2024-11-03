@@ -1,6 +1,6 @@
 # Environment Variables
 
-in `.env`
+Create a `.env` file (gitignored) and populate with the following:
 ```
 ANTHROPIC_API_KEY="my-api-key"
 TOKENIZERS_PARALLELISM=false
